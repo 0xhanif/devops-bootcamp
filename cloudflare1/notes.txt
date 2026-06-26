@@ -1,0 +1,9 @@
+# - Dua nameserver Cloudflare
+liz.ns.cloudflare.com
+plato.ns.cloudflare.com
+
+# - URL public repo
+https://www.mdhanif.com/
+
+# - URL private repo
+https://portfolio.mdhanif.com/
