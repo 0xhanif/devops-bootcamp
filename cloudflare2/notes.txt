@@ -1,0 +1,16 @@
+# - Anatomy Nama Domain
+web.contoh.com
+web -> subdomain
+contoh -> root domain
+com -> TLD
+
+# - Perbezaan DNS only dengan Proxied
+DNS only (grey) -> expose Elastic IP / Origin IP
+Proxied (orange) -> expose Cloudflare IP and hide Origin IP
+
+# - Cloudflare free SSL
+use Flexible to get free SSL from Cloudflare
+
+# - Cloudflare Tunnel
+Zero Trust / Cloudflared
+to expose services to internet using private subnet EC2 without public IP / Elastic IP
