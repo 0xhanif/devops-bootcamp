@@ -1,0 +1,2 @@
+IMAGE            ID             DISK USAGE   CONTENT SIZE   EXTRA
+multi-stage:v1   f638a09de9a2        104MB         31.2MB   U    
