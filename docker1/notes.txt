@@ -1,0 +1,15 @@
+Docker version 29.6.1, build 8900f1d
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest           28bd5fe8b56d         13MB         3.93MB   U    
+hello-world:latest      96498ffd522e       25.9kB         9.49kB   U    
+infratify/card:latest   2414f6668e83         81MB         23.1MB   U    
+nginx:alpine            54f2a904c251       93.3MB         26.9MB        
+nginx:latest            ec4ed8b5299e        241MB           66MB   U    
+CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS                       PORTS                                     NAMES
+b0a65cffe33d   infratify/card   "/docker-entrypoint.…"   3 minutes ago   Exited (255) 3 minutes ago                                             kad2
+aee81c2049b1   infratify/card   "/docker-entrypoint.…"   3 minutes ago   Exited (255) 3 minutes ago                                             kad1
+0ee3f639782d   nginx            "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes                 0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+a6de5db91ed9   alpine           "sh"                     4 minutes ago   Exited (0) 4 minutes ago                                               silly_meitner
+bf27d857304c   nginx            "/docker-entrypoint.…"   5 minutes ago   Up 5 minutes                 80/tcp                                    cool_dijkstra
+f57f5e7bf241   alpine           "echo 'Hello dari Al…"   5 minutes ago   Exited (0) 5 minutes ago                                               affectionate_shaw
+7404220fcb77   hello-world      "/hello"                 5 minutes ago   Exited (0) 5 minutes ago                                               hardcore_brahmagupta
