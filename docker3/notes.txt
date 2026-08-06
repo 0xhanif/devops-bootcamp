@@ -1,0 +1,10 @@
+484812334962.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/hanif
+
+NETWORK ID     NAME      DRIVER    SCOPE
+b3ccf72efabf   arena     bridge    local
+fe32fb05d2ac   bridge    bridge    local
+a245f35711e0   host      host      local
+ba42dfd6c4f5   none      null      local
+
+DRIVER    VOLUME NAME
+local     me
